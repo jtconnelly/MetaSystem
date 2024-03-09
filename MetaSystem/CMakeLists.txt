@@ -1,4 +1,4 @@
-add_library(MetaSystemLib SHARED AnyType.h AnyType.cpp MetaInfo.cpp MetaInfo.h)
+add_library(MetaSystemLib SHARED AnyType.h AnyType.cpp MetaInfo.cpp MetaInfo.h MetaInfoWriter.h MetaInfoWriter.cpp)
 include(GenerateExportHeader)
 generate_export_header(MetaSystemLib)
 target_include_directories(MetaSystemLib PUBLIC
